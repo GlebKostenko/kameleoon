@@ -1,0 +1,1153 @@
+{
+	"info": {
+		"_postman_id": "3cba6afd-ce82-49cc-ad17-710e64ce8983",
+		"name": "KAMELEOON",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14672424"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password\" ,\n\"email\": \"haha@mail.ru\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 1\" ,\n\"email\": \"haha_1@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 2\" ,\n\"email\": \"haha_2@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 3\" ,\n\"email\": \"haha_3@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 4\" ,\n\"email\": \"haha_4@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 5\" ,\n\"email\": \"haha_5@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 6\" ,\n\"email\": \"haha_6@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 7\" ,\n\"email\": \"haha_7@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 8\" ,\n\"email\": \"haha_8@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 9\" ,\n\"email\": \"haha_9@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create User Copy 10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"password\" : \"My Password 10\" ,\n\"email\": \"haha_10@mail.ru\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/user-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"user-api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha@mail.ru&content=content of 0 user",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "content of 0 user"
+						},
+						{
+							"key": "votes",
+							"value": "0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_1@mail.ru&content=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_2@mail.ru&content=2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_2@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_3@mail.ru&content=3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_3@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_4@mail.ru&content=4",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_4@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_5@mail.ru&content=5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_5@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_6@mail.ru&content=6",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_6@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_7@mail.ru&content=7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_7@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_8@mail.ru&content=8",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_8@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 9",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_9@mail.ru&content=9",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_9@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "9"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 10",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha_10@mail.ru&content=10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha_10@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create quote Copy 11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/?user=haha@mail.ru&content=11",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "user",
+							"value": "haha@mail.ru"
+						},
+						{
+							"key": "content",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Quote",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/10?content=13&user=haha_1@mail.ru",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"10"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13"
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Quote With One Param Content",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/10?content=13&user=haha_1@mail.ru",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"10"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13"
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Quote With One Param User",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/10?content=13&user=haha_1@mail.ru",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"10"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13"
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get One quote",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"10"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All quotes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						""
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get random quote",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/random",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"random"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Increase vote",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/increase/1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"increase",
+						"1"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Top 10 quotes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/top",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"top"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get 10 worst quotes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/worst",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"worst"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete quote by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8080/quote-api/12",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"quote-api",
+						"12"
+					],
+					"query": [
+						{
+							"key": "content",
+							"value": "13",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "haha_1@mail.ru",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,1 @@
+Check REST API via Postman using testing request [kameleoon postman](KAMELEOON.postman_collection.json)

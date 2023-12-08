@@ -1,0 +1,28 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+    spring:
+      jpa:
+        properties:
+          hibernate:
+            current_session_context_class=org:
+              springframework:
+                orm:
+                  hibernate5:
+                    SpringSessionContext:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:Kameleoon;DB_CLOSE_DELAY=-1
+    username:
+    password:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  application:
+    name: kameleoon

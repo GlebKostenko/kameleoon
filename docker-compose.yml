@@ -1,0 +1,10 @@
+version: '2'
+services:
+  kameleoon-app:
+    container_name: kameleoon-rest-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kameleoon-rest:latest
+    ports:
+      - 8080:8080
